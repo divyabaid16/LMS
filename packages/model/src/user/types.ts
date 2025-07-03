@@ -6,7 +6,7 @@ export interface UserInterface extends DocumentInterface {
   email: string;
   password: string;
   name: string;
-  role: string;
+  role: ('student' | 'instructor')[]
   createdAt: Date;
   updatedAt: Date;
 }
