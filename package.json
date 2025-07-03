@@ -19,6 +19,7 @@
   "packageManager": "npm@11.1.0",
   "workspaces": [
     "projects/*",
-    "packages/*"
+    "packages/*",
+    "projects/api/core"
   ]
 }
